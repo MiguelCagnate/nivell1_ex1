@@ -1,0 +1,61 @@
+*{
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+      .principal{ display: flex;
+                  flex-flow: column nowrap;
+                  justify-content: center;
+                  max-width: 1200px;
+                }
+
+.header{
+  background:black;
+  display: flex;
+                  flex-flow: column nowrap;
+}
+
+        .menu{
+            background: #daafe4;
+            display: flex; 
+            flex-direction: row nowrap;
+            
+             }
+
+        .logo{  background: #70f2f7; flex: 1 1 auto;
+            }
+        .nav{    background: #70f2f7; flex: 5 1 auto;
+            }
+        .social{   background: #70f2f7; flex: 1 1 auto;
+           } 
+        .texto{
+        background: #84DFFF;
+          }
+
+    h1{background: chartreuse;}
+
+
+                   .section{
+                    background: black; display: flex;
+                    
+                    
+                           }
+              .articulos{background:darkcyan; flex: 2 1 auto;
+              display: flex;
+            flex-flow: row wrap;
+            }
+              .article{background: cyan; flex: 1 1 40%;}
+              .navigate{background:fuchsia; flex: 1 1 100%}
+
+
+      .aside{background: dodgerblue; flex: 1 1 auto;}
+      .commercial{background: gainsboro; flex: 1 1 auto; }    
+
+.footer{
+  background: black;
+  display: flex;
+}
+.down{background: gold; display: flex;
+flex-flow: column;
+flex: 1 1 auto;}
